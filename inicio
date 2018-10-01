@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title> Pagina Inicio </title>
+
+
+  </head>
+  <body>
+
+    hola mundo
+
+    <!--Etiquetas-->
+
+    <head>
+
+     <p>Etiqueta <strong>P1</strong></p>  <!--P1 En mayusculas-->
+     <p>Etiqueta <strong>P2</strong></p>  <!--P2 En mayusculas-->
+
+      <ul>
+         <li>Acceso directo a <strong>Face:</strong> <dr> <a href="http://www.Facebook.com"> Pagina de Facebook</a>.<dr></li>
+         <li>Acceso directo a <strong>Goog:</strong><dr><a href="http://www.Google.com"> Pagina de Google</a></li>
+
+      </ul>
+
+<table>
+  <p>Tablas de contol</p>
+     <tr>
+       <td>Fila1 , Columna1</td>
+        <td colspan="2"> Youtubea ,Facebook</td>
+        <td><a href="http://Youtube.com">Youtubea </a> </td>
+        <td><a href="http://facebook.com">Facebook</td>
+      </tr>
+
+       <tr>
+
+           <td rowspan="2"> Youtubea ,Facebook</td>
+           <td><a href="http://Youtube.com">Youtubea </a> </td>
+           <td><a href="http://facebook.com">Facebook</td>
+
+       </tr>
+
+       <tr>
+
+         <td>2 Centros</td>
+         <td>2 Obalos</td>
+
+       </tr>
+
+ </table>
+
+      <form class="Clientes" action="inicio.html" method=" post">
+        <input type="file"   name="" value="">
+
+        <select class="desplegable" name="Despliegue">
+         <table>
+            <tr>
+            <td><input type="text" name="" value=""></td>
+          </td>
+          </table>
+        </select>
+
+      </form>
+      <select class="desplegable" name="Despliegue">
+       <table>
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </table>
+
+      </select>
+
+      <label for="label"> para</label>
+      <input type="text" name="text" value="">
+
+       <ol>
+
+         <li> Imagen <a href="imagenes/IMG_6074.JPG"> # </a> </li>
+         <li>España <a href="http://www.Facebook.com"> Face de España</a></li>
+         <li>Argentina</li>
+         <li>Europa</li>
+         <li>Brasil</li>
+       </ol>
+
+      <p>
+       Empiesa el orden <strong>Muy importante</strong>.<dr>
+         asi se introduce
+      </p>
+
+    </head>
+
+    <elemento atributo="valor">facebook  </elemento>
+    <a href="http://www.google.com">Google</a>
+
+    <p> <strong>Siquiente linea</strong> </p>
+
+    <form class="ForCliente" action="inicio.html" method="post">
+
+      <label for="1">Cliente</label>
+      <input id="1" type="email" placeholder="eliass_p@hotmail.com" required >
+      <button id="1" type="button" name="Guardar">Guardar</button>
+      <hr> <!--Separador-->
+      <p> este es <hr>  &1; &<img src="curso_desde_cero/imagenes/IMG_6074.JPG" alt="">  </p>
+      <label for="tipo"> Tematica </label>
+
+      <li>
+        <p>elemento P</p>
+        <h6>Elemento H1</h6>
+
+      </li>
+
+        <h1>Pagina sobre &lt; HTMIL5 &amp; CSS3</h1>
+        <meta name="x-ua-compatible" content="ie=edge">   
+
+      <select class="tipo" name="tipa">
+        <option>-- Elige un tema --</option>
+        <option value="proposal">Propuesta</option>
+        <option value="report">Reporte</option>
+        <option value="other">Otro</option>
+       </select>
+
+
+
+       <p>
+       <label for="suboject">Asunto</label>
+       <input type="text" name="label" id="suboject" required>
+       </p>
+
+       <p> Comntario sin limite <textarea name="textarea" rows="1" cols="30"></textarea> <button type="button" name="Buscar y guardar">Buscar y guardar</button></p>
+
+
+    </form>
+
+
+
+    <img src="imagenes/IMG_6074.JPG" alt="">
+
+
+  </body>
+</html>
